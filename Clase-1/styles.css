@@ -1,0 +1,25 @@
+/*Atributos CSS declarados externamente*/
+
+h1 {
+    color: red;
+}
+
+
+/*Variable CSS (Custom properties) Reutilización de valores*/
+
+:root {
+    --color: yellow;
+    /*Declaración de variable personalizada que se guarda en memoria para se utilizada en el proyecto*/
+}
+
+h3 {
+    color: var(--color);
+}
+
+p {
+    color: var(--color);
+}
+
+h4 {
+    color: blue;
+}
