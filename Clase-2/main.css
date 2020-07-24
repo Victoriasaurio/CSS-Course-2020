@@ -6,7 +6,7 @@ h1 {
 }
 
 body {
-    background: black;
+    background: white;
 }
 
 p {
@@ -92,4 +92,88 @@ h2.title.nat {
 
 body span {
     color: slateblue;
+}
+
+
+/*Operadores * > + ~ * /
+
+/* Selecciona todo(*)*/
+
+* {
+    /*background: orangered;
+    color: red;*/
+}
+
+
+/*Hijo directo || No acepta un rango diferente*/
+
+body>p {
+    color: green;
+}
+
+
+/*Hijo siguiente singular*/
+
+p+div {
+    border: 1px solid;
+}
+
+
+/*Selector de todos los hermano siguiente en plural*/
+
+p~div {
+    background: yellow;
+}
+
+
+/*Selectores de atributo
+* Usan []
+[atributo="valor"]*/
+
+[type="text"] {
+    border: 2px solid purple;
+}
+
+[type="number"] {
+    border: 3px solid green;
+}
+
+[required] {
+    border: 1px solid red;
+}
+
+[type="submit"] {
+    background: slateblue;
+    border: none;
+    color: white;
+}
+
+
+/*Selector de atributos con comodines*/
+
+[type^="sub"] {
+    color: aqua;
+    background: green;
+}
+
+a[href^="http://"] {
+    border-bottom: 1px dashed red;
+    /*
+    - dashed otorga línea punteada
+    - border-bottom: Indica la parte de abajo
+    */
+}
+
+
+/*Termina con [atributo$]="valor"*/
+
+a[href$=".mp4"] {
+    background: fuchsia;
+}
+
+
+/* Contiene [atribito*="valor"] no importa el lugar en donde se encuentre la palabra clave*/
+
+a[href*="team"] {
+    background: paleturquoise;
 }
