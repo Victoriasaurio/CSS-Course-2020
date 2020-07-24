@@ -1,0 +1,31 @@
+div {
+    color: aqua;
+}
+
+
+/*Especificidad*/
+
+div p.parrafo {
+    color: purple;
+}
+
+div p.parrafoMore#more {
+    /*Padre-Hijo-clase-id*/
+    color: seagreen;
+}
+
+
+/*Cascada - Sobre escribe el style 'aqua' por 'red'*/
+
+div {
+    color: red;
+}
+
+
+/*Herencia. Unicamente se le aplicó estilo al padre y por concecuencia todos sus hijos heredaron esos estilos*/
+
+div.herencia {
+    color: yellowgreen;
+    border: 2px solid salmon;
+    margin: 2em;
+}
