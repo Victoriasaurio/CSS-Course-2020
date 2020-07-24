@@ -1,0 +1,108 @@
+/*MARGIN, PADDING, BORDER*/
+
+div.box-model {
+    /*Tamaño vertical(y)*/
+    width: 300px;
+    border: 2px solid salmon;
+    /*Espacio otorgado entre el texto y el margen*/
+    padding: 50px;
+    /*Separación del margen*/
+    margin: 20px;
+}
+
+
+/*ANCHO TOTAL: 444 PÍXELES
+- 300px anchura
+- 100píxeles relleno-padding (izq+der)
+- 4px border (izq+der)
+- 40px margen (izq+der)
+*/
+
+
+/*
+- EXERCISE 1 (width of div to 200px)
+- EXERCISE 2 (padding of div to 25px)
+- EXERCISE 3 (border of div to "25px solid navy")
+- EXERCISE 4 (margin of div to 25px)
+*/
+
+div.altura {
+    width: 200px;
+    background-color: lightblue;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+
+
+/*BOX SIZING*/
+
+
+/*Sin la propiedad box-sizing*/
+
+div.relleno1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+div.relleno2 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    padding: 50px;
+}
+
+
+/*CON la propiedad box-sizing
+- Ambas son del mismo tamaño, sin embargo el segundo se sale del cuadro debido al padding que contiene
+*/
+
+div.bSizing1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid gold;
+    box-sizing: border-box;
+}
+
+div.bSizing2 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid gold;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+/*Propiedad DISPLAY*/
+
+div.cuadrado {
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+p.rectangulo {
+    /*display: inline-block coloca los elementos en una sola línea*/
+    /*display: inherit*/
+    display: inline-block;
+}
+
+a {
+    /*Conversión a elementos de bloque*/
+    display: block;
+}
+
+
+/*Poniendo solo 'div' sin el main el estilo queda mejor*/
+
+#main {
+    width: 400px;
+    height: 60px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    /*Invierte las letras*/
+    flex-direction: row-reverse;
+}
