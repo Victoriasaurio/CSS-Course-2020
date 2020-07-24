@@ -7,3 +7,6 @@
 **Fondos**<br>
 **Color**<br>
 **Texto**<br>
+
+### BOX MODEL
+![](Clase-4/images/box-model.png)
