@@ -10,3 +10,6 @@
 
 ### BOX MODEL
 ![](Clase-4/images/box-model.png)
+
+### TIPOS DE BORDES
+![](Clase-5/images/tipos-bordes.png)
