@@ -71,3 +71,18 @@ outset global efecto 3D <br><br>
 
 ### SOMBRA CAJA Y SOMBRA TEXTO
 ![](images/sombra.png)
+
+## OUTLINE
+Es una línea que se dibuja alredor de los elementos fuera de los bordes, para hacer que el elemento se DESTAQUE. El contorno de outline no forma parte de las dimesiones del elemento.
+
+Propiedades de outline:
+**outline-style** <br>
+Valores que puede tener la propiedad `outline` <br>
+***`dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden`*** <br>
+
+Propiedades de outline:
+    
+    outline-color
+    outline-width
+    outline-offset
+    outline
