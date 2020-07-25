@@ -1,0 +1,46 @@
+/*Link sin visitar*/
+
+a:link {
+    color: red;
+}
+
+
+/*Link visitado*/
+
+a:visited {
+    color: #00ff00;
+}
+
+
+/*Mouse sobre el link*/
+
+a:hover {
+    color: #ff00ff;
+}
+
+
+/*Link seleccionado*/
+
+a:active {
+    color: #0000ff;
+}
+
+h5 {
+    display: inline-block;
+}
+
+
+/* ----------- */
+
+div {
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+
+/*div:hover*/
+
+div:hover {
+    background: blueviolet;
+}
