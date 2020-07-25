@@ -1,0 +1,16 @@
+.normal {
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 99, 71);
+}
+
+.trasnparente {
+    width: 200px;
+    height: 200px;
+    /*Transparencia con la propiedad rgba*/
+    background: rgba(255, 99, 71, 0.5);
+}
+
+div {
+    display: inline-block;
+}
