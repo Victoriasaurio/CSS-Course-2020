@@ -1,0 +1,167 @@
+div {
+    display: inline-block;
+    /*margen inferior*/
+    margin-bottom: .75em;
+    margin-left: 1em;
+}
+
+
+/*BORDES*/
+
+div.a {
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    border: 3px solid blue;
+}
+
+div.b {
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    border: 3px dotted blue;
+}
+
+div.c {
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    border: 3px dashed blue;
+}
+
+div.d {
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    border: 3px double blue;
+}
+
+div.e {
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    border: 5px groove red;
+}
+
+div.f {
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    border: 3px ridge yellow;
+}
+
+div.g {
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    border: 3px inset skyblue;
+}
+
+div.h {
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    border: 3px outset palevioletred;
+}
+
+
+/*Bordes variados utilizando diferentes propiedades*/
+
+div.i {
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-left: 5px dashed seagreen;
+    border-right: 3px solid yellow;
+    border-bottom: 1.5px double peru;
+    border-top: 7px dotted rebeccapurple;
+}
+
+
+/*Otras propiedades*/
+
+div.j {
+    padding: 35px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid orchid;
+    border-top-width: 6px;
+    border-top-color: aqua;
+}
+
+
+/*BORDES REDONDEADOS*/
+
+div.k {
+    padding: 35px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid aquamarine;
+    /*Redondea las esquinas*/
+    border-radius: 25px;
+}
+
+
+/*BORDES REDONDEADOS PERSONALIZADOS*/
+
+div.l {
+    padding: 35px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid lawngreen;
+    /*Redondea las esquinas personalizadas*/
+    border-radius: 25px 55px 25px 55px;
+}
+
+
+/*BORDES ELIPTICOS*/
+
+div.m {
+    padding: 35px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid brown;
+    /*Esquinas elipticas*/
+    border-radius: 25px / 55px;
+}
+
+
+/*SOMBRAS*/
+
+p {
+    padding: 10px;
+    border: 1px solid yellow;
+    box-shadow: 6px 6px 0px black;
+}
+
+
+/*SOMBRA CON BAJA DE TONO*/
+
+p.sombra-baja {
+    padding: 10px;
+    border: 1px solid yellow;
+    box-shadow: 6px 6px 6px black;
+}
+
+
+/*SOMBRA DENTRO DEL BLOQUE*/
+
+p.sombra-baja-dentro {
+    padding: 10px;
+    border: 3px solid yellow;
+    box-shadow: 6px 6px 6px black inset;
+}
+
+p.sombra-baja-dentro-alto {
+    padding: 10px;
+    border: 3px solid yellow;
+    box-shadow: 6px 6px 6px black inset;
+}
+
+
+/*SOMBRA DEL TEXTO*/
+
+p.sombra-texto {
+    text-shadow: 2px 2px 4px black;
+}
