@@ -165,3 +165,16 @@ p.sombra-baja-dentro-alto {
 p.sombra-texto {
     text-shadow: 2px 2px 4px black;
 }
+
+
+/*OUTLINE*/
+
+h2.double {
+    outline-style: double;
+    outline-color: aqua;
+    outline-width: 5px;
+    /*
+    Crece de forma horizontal
+    - outline-offset: 7px;
+    */
+}
