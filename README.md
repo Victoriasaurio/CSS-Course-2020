@@ -13,3 +13,7 @@
 
 ### TIPOS DE BORDES
 ![](Clase-5/images/tipos-bordes.png)
+### BORDES
+![](Clase-5/images/bordes.png)
+### SOMBRA CAJA Y SOMBRA TEXTO
+![](Clase-5/images/sombra.png)
